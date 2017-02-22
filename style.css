@@ -30,3 +30,13 @@ img {
 body {
   font-family: 'Helvetica', Helvetica, Arial, sans-serif;
 }
+
+.contact-form-container {
+    display: flex;
+    flex-direction:column;
+
+}
+.contact-form-container>label>input{
+    margin: 2em 0 0 0;
+
+}
