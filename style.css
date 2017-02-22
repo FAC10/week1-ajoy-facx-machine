@@ -32,6 +32,7 @@ body {
 }
 
 .media__img {
+  width: 100%;
   margin-bottom: 1em;
 }
 
@@ -43,6 +44,6 @@ body {
 
   .media__img {
     margin-right: 3em;
-    max-width: 40%;
+    width: 40%;
   }
 }
