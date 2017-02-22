@@ -31,7 +31,18 @@ body {
   font-family: 'Helvetica', Helvetica, Arial, sans-serif;
 }
 
-@@media screen and (min-width: 30em){
-  
+.media__img {
+  margin-bottom: 1em;
+}
 
+@media screen and (min-width: 40em){
+  .media {
+    display: flex;
+    align-items: center;
+  }
+
+  .media__img {
+    margin-right: 3em;
+    max-width: 40%;
+  }
 }
