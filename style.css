@@ -45,11 +45,12 @@ body {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -1em;
+    margin-left: -1em;
   }
   .grid__item {
-    width: 50%;
-    padding-right: 1em;
+    /*width: 50%;*/
+    flex: 1 0 50%;
+    padding-left: 1em;
   }
 }
 
