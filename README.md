@@ -6,4 +6,4 @@ To work on the site run `npm start` and your browser should open `index.html`.
 
 Browser-sync will watch any `.html`, `.css` and `.js` files and automatically refresh the browser for you when you save.
 
-To add a warning instruction when pushing to master run the command `ln -sf prepush ../../.git/hooks/prepush && chmod +x .git/hooks/prepush` 
+To add a warning instruction when pushing to master run the command `cp pre-push .git/hooks/`
