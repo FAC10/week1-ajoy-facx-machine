@@ -1,0 +1,22 @@
+{
+  "name": "week1-ajoy-facx-machine",
+  "version": "1.0.0",
+  "description": "Our nice website",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --directory --server --files '*.js, *.html, *.css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FAC10/week1-ajoy-facx-machine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FAC10/week1-ajoy-facx-machine/issues"
+  },
+  "homepage": "https://github.com/FAC10/week1-ajoy-facx-machine#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8"
+  }
+}
