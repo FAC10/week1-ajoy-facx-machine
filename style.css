@@ -31,19 +31,41 @@ body {
   font-family: 'Helvetica', Helvetica, Arial, sans-serif;
 }
 
+.grid {
+
+}
+
+.grid__item {
+  padding-bottom: 1em;
+}
+
+@media screen and (min-width: 40em) {
+  .grid {
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -1em;
+  }
+  .grid__item {
+    width: 50%;
+    padding-right: 1em;
+  }
+}
+
 .media__img {
   width: 100%;
   margin-bottom: 1em;
 }
 
 @media screen and (min-width: 40em){
-  .media {
+  .media--row {
     display: flex;
     align-items: center;
   }
 
-  .media__img {
-    margin-right: 3em;
+  .media__img--row {
     width: 40%;
+    margin-right: 3em;
   }
 }
