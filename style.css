@@ -104,20 +104,33 @@ section:nth-child(2n) {
 }
 
 .grid {
-    
+
 }
 
 .grid__item {
   padding-bottom: 1em;
 }
 
+.media {
+  height: 100%;
+    display: flex;
+    /*flex: 1;*/
+    flex-direction: column;
+}
+
 .grid__iconContainer {
-    margin-top:1em;
+    margin-top: 1em;
+    text-align: center;
+    /*margin: auto 0;*/
+
 
 }
 .grid__icon {
     max-width: 2em;
     max-height: 2em;
+    /*margin: auto;*/
+    /*margin: auto 0;*/
+
 }
 
 @media screen and (min-width: 40em) {
@@ -155,6 +168,7 @@ section:nth-child(2n) {
 
 .media__caption {
   text-align: center;
+  flex: 1;
 }
 
 @media screen and (min-width: 40em) {
