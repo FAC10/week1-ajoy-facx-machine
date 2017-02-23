@@ -12,12 +12,13 @@
 <body>
   <header class="navbar">
         <div class="navbar__brand">
-            <img src="http://www.morrell-middleton.co.uk/wp-content/uploads/logo-placeholder.jpg" class="navbar__logo" alt="FACX Machine Team Logo">
+            <!-- <img src="http://www.morrell-middleton.co.uk/wp-content/uploads/logo-placeholder.jpg" class="navbar__logo" alt="FACX Machine Team Logo"> -->
+            <div>FACX Machine 📠 <span class="accessible_elem">emoji</span></div>
         </div>
-       <nav>
+       <nav class="navbar__menuContainer">
            <ul class="navbar__menu">
                <li class="navbar__item">
-                   <a class="navbar__linkItem" href="#about">About <span class="accessible-elem">Us</span></a>
+                   <a class="navbar__linkItem" href="#about">About <span class="accessible_elem">Us</span></a>
                    </li>
                    <li class="navbar__item">
                        <a class="navbar__linkItem" href="#profiles">Profiles</a>
@@ -30,8 +31,9 @@
     </header>
     <main class="site-container">
         <section id="about">
+          <div class="sectionContainer">
             <figure class="media media--row">
-                <img class="media__img media__img--row" src="http://placecage.com/500/300" alt="our nice team">
+                <img class="media__img media__img--row" src="img/team.jpg" alt="our nice team">
                 <figcaption class="media__caption">
                     <p>
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Lorem ipsum dolor sit amet, consectetuer
@@ -39,12 +41,14 @@
                     </p>
                 </figcaption>
             </figure>
+          </div>
         </section>
         <section id="profiles">
+          <div class="sectionContainer">
             <div class="grid">
                 <div class="grid__item">
                     <figure class="media">
-                        <img src="http://fillmurray.com/400/400" alt="Akin's nice photo" class="media__img media__img--round">
+                        <img src="img/akin.jpg" alt="Akin's nice photo" class="media__img media__img--round">
                         <ficaption class="media__caption">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed autem, consectetur praesentium repudiandae suscipit. Quae!</p>
                         </ficaption>
@@ -52,7 +56,7 @@
                 </div>
                 <div class="grid__item">
                     <figure class="media">
-                        <img src="http://fillmurray.com/400/400" alt="Jess' nice photo" class="media__img media__img--round">
+                        <img src="img/jess.jpg" alt="Jess' nice photo" class="media__img media__img--round">
                         <ficaption class="media__caption">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, harum, eius. Voluptatibus, repellendus, accusantium. Maxime!</p>
                         </ficaption>
@@ -60,7 +64,7 @@
                 </div>
                 <div class="grid__item">
                     <figure class="media">
-                        <img src="http://fillmurray.com/400/400" alt="Oli's nice photo" class="media__img media__img--round">
+                        <img src="img/oli.jpg" alt="Oli's nice photo" class="media__img media__img--round">
                         <ficaption class="media__caption">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora commodi esse veniam quod! Ab, quas.</p>
                         </ficaption>
@@ -68,22 +72,24 @@
                 </div>
                 <div class="grid__item">
                     <figure class="media">
-                        <img src="http://fillmurray.com/400/400" alt="Yvonne's nice photo" class="media__img media__img--round">
+                        <img src="img/yvonne.jpg" alt="Yvonne's nice photo" class="media__img media__img--round">
                         <ficaption class="media__caption">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus maxime sint illo cupiditate deleniti inventore.</p>
                         </ficaption>
                     </figure>
                 </div>
             </div>
+          </div>
         </section>
       <section class="contact-form">
+        <div class="sectionContainer">
         <form action="https://formspree.io/akin.sowemimo@gmail.com" method="POST" class="contact-form__container" accept-charset="utf-8">
             <label for="name" name="name" class="contact-form__label">
-                Name:     
+                Name:
                 <input id="name" type="text" class="contact-form__input">
             </label>
             <label for="email" name="_replyto" class="contact-form__label">
-                Email:    
+                Email:
                 <input id="email" class="contact-form__input" type="email">
             </label>
             <label for="organisation" class="contact-form__label">
@@ -95,11 +101,12 @@
                 <input id="subject" type="text" class="contact-form__input">
             </label>
             <label for="message" class="contact-form__label">
-                Message: 
+                Message:
                 <input id="message" type="text-area" class="contact-form__input">
             </label>
                 <input type="submit" value="Send" name=""  id="" class="contact-form__submit">
         </form>
+      </div>
     </section>
     </main>
   </body>
