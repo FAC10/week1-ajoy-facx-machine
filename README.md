@@ -1,4 +1,4 @@
-# FACX Machine's Nice Site
+# FACX Machine's [Nice Site](https://fac10.github.io/week1-ajoy-facx-machine/)
 
 ## Why
 To create a place where prospective clients can see information about our team, our team members and our work.
