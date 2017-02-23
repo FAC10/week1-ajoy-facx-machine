@@ -47,7 +47,7 @@ h1, h2, h3 {
 .sectionHeader {
   font-size: 2em;
   color: #5973BF;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 30em) {
@@ -198,7 +198,7 @@ section:nth-child(2n) {
 .media__img {
   width: 100%;
   margin-bottom: 1em;
-  box-shadow: 20px 20px 0 rgba(89,115,191,0.36);
+  box-shadow: 10px 10px 0 rgba(89,115,191,0.36);
 }
 
 .media__link {
@@ -235,7 +235,13 @@ section:nth-child(2n) {
   }
   .media__img--row {
     width: 40%;
-    margin-right: 1em;
+    margin-right: 2em;
+  }
+  .media__img {
+    box-shadow: 20px 20px 0 rgba(89,115,191,0.36);
+  }
+  .media__img--round {
+    box-shadow: -8px 8px 0 rgba(89,115,191,0.36);
   }
   .media__caption--left {
     text-align: left;
