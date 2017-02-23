@@ -42,10 +42,10 @@ h1, h2, h3 {
   margin: 0 auto;
 }
 
-.contact__header {
-  font-size: 3em;
+.sectionHeader {
+  font-size: 2em;
   color: #5973BF;
-  margin: 10px 0 50px 0;
+  margin-bottom: 1em;
   width: 100%;
 }
 
@@ -150,6 +150,9 @@ section:nth-child(2n) {
     display: flex;
     flex-direction: column;
 }
+.media__profileTitle {
+    color:#5973BF;
+}
 
 .grid__iconContainer {
     margin-top: 1em;
@@ -161,6 +164,7 @@ section:nth-child(2n) {
   max-width: 2em;
   max-height: 2em;
   margin-left: 0.5em;
+  transition: fill 0.4s;
 }
 
 .svgSocIcon:hover {
@@ -194,6 +198,10 @@ section:nth-child(2n) {
 .media__img {
   width: 100%;
   margin-bottom: 1em;
+  transition: transform 0.4s
+}
+.media__img--animated:hover {
+    transform: scale(1.1)
 }
 
 .media__img--round {
@@ -234,7 +242,7 @@ section:nth-child(2n) {
 .contact-form__container {
   max-width: 40em;
   margin: 0 auto;
-  margin-top: 1em;
+  /*margin-top: 1em;*/
 }
 
 .contact-form__input,
