@@ -104,11 +104,20 @@ section:nth-child(2n) {
 }
 
 .grid {
-
+    
 }
 
 .grid__item {
   padding-bottom: 1em;
+}
+
+.grid__iconContainer {
+    margin-top:1em;
+
+}
+.grid__icon {
+    max-width: 2em;
+    max-height: 2em;
 }
 
 @media screen and (min-width: 40em) {
