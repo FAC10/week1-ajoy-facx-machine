@@ -150,6 +150,9 @@ section:nth-child(2n) {
     display: flex;
     flex-direction: column;
 }
+.media__profileTitle {
+    color:#5973BF;
+}
 
 .grid__iconContainer {
     margin-top: 1em;
