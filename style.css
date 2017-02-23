@@ -68,14 +68,14 @@ section:nth-child(2n) {
 
 /* Nav Bar */
 .navbar {
-  padding: 2em;
+  padding: 1.5em;
   text-align: center;
   color: white;
   background-color: #1f2947;
 }
 
 .navbar__brand {
-  font-size: 2em;
+  font-size: 1.75em;
   font-family: monospace;
 }
 
