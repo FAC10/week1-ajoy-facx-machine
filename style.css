@@ -46,6 +46,9 @@ h1, h2, h3 {
   body {
     font-size: 1.25em;
   }
+}
+
+@media (min-width: 40em) {
   .sectionContainer {
     padding: 8em 1em;
   }
