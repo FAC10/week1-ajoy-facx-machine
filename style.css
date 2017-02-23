@@ -36,6 +36,7 @@ img {
 body {
   font-family: 'Helvetica', Helvetica, Arial, sans-serif;
 }
+
 /* this element allows you to hide text visually, but not from a screen reader */
 .accessible_elem {
   clip: rect(1px 1px 1px 1px); /* IE 6/7 */
@@ -46,8 +47,6 @@ body {
   white-space: nowrap; /* added line */
   width: 1px;
 }
-
-
 
 /* Nav Bar */
 .navbar {
@@ -63,13 +62,14 @@ body {
   }
 }
 
-.navbar__brand { }
+.navbar__brand {
+  
+}
 
 .navbar__logo {
   width: 5em;
   height: 5em;
 }
-
 
 .navbar__menu {
   display: flex;
@@ -84,6 +84,7 @@ body {
 .navbar__linkItem {
   text-decoration: none;
 }
+
 .grid {
 
 }
@@ -129,7 +130,7 @@ body {
   text-align: center;
 }
 
-@media screen and (min-width: 40em){
+@media screen and (min-width: 40em) {
   .media--row {
     display: flex;
     align-items: center;
@@ -139,4 +140,15 @@ body {
     width: 40%;
     margin-right: 3em;
   }
+}
+
+.contact-form__container {
+    display: flex;
+    flex-direction:column;
+}
+.contact-form__input {
+    margin: 2em 0 0 0;
+}
+
+.contact-form__submit {
 }

@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
   <header class="navbar">
         <div class="navbar__brand">
             <img src="http://www.morrell-middleton.co.uk/wp-content/uploads/logo-placeholder.jpg" class="navbar__logo" alt="FACX Machine Team Logo">
@@ -77,7 +76,31 @@
                 </div>
             </div>
         </section>
+      <section class="contact-form">
+        <form action="https://formspree.io/akin.sowemimo@gmail.com" method="POST" class="contact-form__container" accept-charset="utf-8">
+            <label for="name" name="name" class="contact-form__label">
+                Name:     
+                <input id="name" type="text" class="contact-form__input">
+            </label>
+            <label for="email" name="_replyto" class="contact-form__label">
+                Email:    
+                <input id="email" class="contact-form__input" type="email">
+            </label>
+            <label for="organisation" class="contact-form__label">
+                Organisation:
+                <input id="organistation" class="contact-form__input" type="text" >
+            </label>
+            <label for="subject" class="contact-form__label">
+                Subject:
+                <input id="subject" type="text" class="contact-form__input">
+            </label>
+            <label for="message" class="contact-form__label">
+                Message: 
+                <input id="message" type="text-area" class="contact-form__input">
+            </label>
+                <input type="submit" value="Send" name=""  id="" class="contact-form__submit">
+        </form>
+    </section>
     </main>
-</body>
-
+  </body>
 </html>
