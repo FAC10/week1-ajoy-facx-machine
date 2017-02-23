@@ -10,6 +10,12 @@ html {
   box-sizing: border-box;
 }
 
+.site-container {
+  max-width: 70em;
+  margin: 0 auto;
+  padding: 1em; /*maybe change this*/
+}
+
 body,
 figure,
 h1,
@@ -30,7 +36,6 @@ img {
 body {
   font-family: 'Helvetica', Helvetica, Arial, sans-serif;
 }
-
 /* this element allows you to hide text visually, but not from a screen reader */
 .accessible_elem {
   clip: rect(1px 1px 1px 1px); /* IE 6/7 */
@@ -78,4 +83,60 @@ body {
 
 .navbar__linkItem {
   text-decoration: none;
+}
+.grid {
+
+}
+
+.grid__item {
+  padding-bottom: 1em;
+}
+
+@media screen and (min-width: 40em) {
+  .grid {
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -1em;
+  }
+  .grid__item {
+    flex: 1 0 50%;
+    padding-left: 1em;
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .grid {
+    margin-left: -3em;
+  }
+  .grid__item {
+    flex-basis: 25%;
+    padding-left: 3em;
+  }
+}
+
+.media__img {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.media__img--round {
+  border-radius: 50%;
+}
+
+.media__caption {
+  text-align: center;
+}
+
+@media screen and (min-width: 40em){
+  .media--row {
+    display: flex;
+    align-items: center;
+  }
+
+  .media__img--row {
+    width: 40%;
+    margin-right: 3em;
+  }
 }
