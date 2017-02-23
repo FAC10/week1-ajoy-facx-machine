@@ -61,22 +61,21 @@ section:nth-child(2n) {
 /* Nav Bar */
 .navbar {
   padding: 2em;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
   color: white;
   background-color: #1f2947;
 }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 40em) {
   .navbar {
-    flex-direction: row;
+    display: flex;
+    align-items: center;
   }
 }
 
 .navbar__brand {
   font-size: 2em;
-  font-family: monospace;;
+  font-family: monospace;
 }
 
 .navbar__logo {
@@ -89,18 +88,23 @@ section:nth-child(2n) {
 }
 
 .navbar__menu {
+  margin-top: 1em;
   display: flex;
-  flex-direction: row;
   list-style-type: none;
+  justify-content: space-between;
 }
 
 .navbar__item {
-  padding: 0 2em 0 2em;
 }
 
 .navbar__linkItem {
+  padding: 1em;
   text-decoration: none;
   color: inherit;
+}
+
+.navbar__linkItem:hover {
+  text-decoration: underline;
 }
 
 .grid {
