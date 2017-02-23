@@ -164,6 +164,7 @@ section:nth-child(2n) {
   max-width: 2em;
   max-height: 2em;
   margin-left: 0.5em;
+  transition: fill 0.4s;
 }
 
 .svgSocIcon:hover {
@@ -197,6 +198,10 @@ section:nth-child(2n) {
 .media__img {
   width: 100%;
   margin-bottom: 1em;
+  transition: transform 0.4s
+}
+.media__img--animated:hover {
+    transform: scale(1.1)
 }
 
 .media__img--round {
