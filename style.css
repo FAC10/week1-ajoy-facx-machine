@@ -10,6 +10,12 @@ html {
   box-sizing: border-box;
 }
 
+.site-container {
+  max-width: 50em;
+  margin: 0 auto;
+  padding: 1em; /*maybe change this*/
+}
+
 body,
 figure,
 h1,
