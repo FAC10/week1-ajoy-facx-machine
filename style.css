@@ -53,6 +53,9 @@ h1, h2, h3 {
   body {
     font-size: 1.25em;
   }
+}
+
+@media (min-width: 40em) {
   .sectionContainer {
     padding: 8em 1em;
   }
@@ -142,6 +145,28 @@ section:nth-child(2n) {
   padding-bottom: 1em;
 }
 
+.media {
+  height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid__iconContainer {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.svgSocIcon {
+  fill: #2E3B60;
+  max-width: 2em;
+  max-height: 2em;
+  margin-left: 0.5em;
+}
+
+.svgSocIcon:hover {
+  fill: #5973BF;
+}
+
 @media screen and (min-width: 40em) {
   .grid {
     display: flex;
@@ -173,6 +198,7 @@ section:nth-child(2n) {
 
 .media__img--round {
   border-radius: 50%;
+  box-shadow: -5px 2px 3px 0px rgba(89,115,191,0.36);
 }
 
 .media__header {
@@ -183,11 +209,13 @@ section:nth-child(2n) {
 
 .media__caption {
   text-align: center;
+  flex: 1;
 }
 
 @media screen and (min-width: 40em) {
   .media--row {
     display: flex;
+    flex-direction:row;
     align-items: center;
   }
 
