@@ -98,8 +98,13 @@ section:nth-child(2n) {
 }
 
 .navbar__linkItem {
+  padding: 1em;
   text-decoration: none;
   color: inherit;
+}
+
+.navbar__linkItem:hover {
+  text-decoration: underline;
 }
 
 .grid {
