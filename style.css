@@ -36,7 +36,54 @@ img {
 body {
   font-family: 'Helvetica', Helvetica, Arial, sans-serif;
 }
+/* this element allows you to hide text visually, but not from a screen reader */
+.accessible_elem {
+  clip: rect(1px 1px 1px 1px); /* IE 6/7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; /* added line */
+  width: 1px;
+}
 
+
+
+/* Nav Bar */
+.navbar {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 30em) {
+  .navbar {
+    flex-direction: row;
+  }
+}
+
+.navbar__brand { }
+
+.navbar__logo {
+  width: 5em;
+  height: 5em;
+}
+
+
+.navbar__menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.navbar__item {
+  padding: 0 2em 0 2em;
+}
+
+.navbar__linkItem {
+  text-decoration: none;
+}
 .grid {
 
 }
