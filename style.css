@@ -153,6 +153,7 @@ section:nth-child(2n) {
 }
 .media__profileTitle {
     color:#5973BF;
+    font-size: 1.5em;
 }
 
 .grid__iconContainer {
