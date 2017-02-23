@@ -118,23 +118,23 @@ section:nth-child(2n) {
 .media {
   height: 100%;
     display: flex;
-    /*flex: 1;*/
     flex-direction: column;
 }
 
 .grid__iconContainer {
     margin-top: 1em;
     text-align: center;
-    /*margin: auto 0;*/
-
-
 }
-.grid__icon {
-    max-width: 2em;
-    max-height: 2em;
-    /*margin: auto;*/
-    /*margin: auto 0;*/
 
+.svgSocIcon {
+  fill: #2E3B60;
+  max-width: 2em;
+  max-height: 2em;
+  margin-left: 0.5em;
+}
+
+.svgSocIcon:hover {
+  fill: #5973BF;
 }
 
 @media screen and (min-width: 40em) {
