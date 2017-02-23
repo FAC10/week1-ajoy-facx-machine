@@ -42,6 +42,13 @@ h1, h2, h3 {
   margin: 0 auto;
 }
 
+.contact__header {
+  font-size: 3em;
+  color: #5973BF;
+  margin: 10px 0 50px 0;
+  width: 100%;
+}
+
 @media (min-width: 30em) {
   body {
     font-size: 1.25em;
@@ -124,6 +131,13 @@ section:nth-child(2n) {
 
 }
 
+.grid__header {
+  font-size: 3em;
+  color: #5973BF;
+  margin: 10px 0 50px 0;
+  width: 100%;
+}
+
 .grid__item {
   padding-bottom: 1em;
 }
@@ -159,6 +173,12 @@ section:nth-child(2n) {
 
 .media__img--round {
   border-radius: 50%;
+}
+
+.media__header {
+  font-size: 3em;
+  color: #5973BF;
+  margin: 20px 0 20px 0;
 }
 
 .media__caption {
