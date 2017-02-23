@@ -45,34 +45,37 @@ body {
 
 
 /* Nav Bar */
-.nav-bar {
+.navbar {
   border: 1px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.nav-menu {
+@media screen and (min-width: 30em) {
+  .navbar {
+    flex-direction: row;
+  }
+}
+
+.navbar__brand { }
+
+.navbar__logo {
+  width: 5em;
+  height: 5em;
+}
+
+
+.navbar__menu {
   display: flex;
   flex-direction: row;
   list-style-type: none;
 }
 
-.nav-item {
+.navbar__item {
   padding: 0 2em 0 2em;
 }
 
-.nav-link-item {
+.navbar__linkItem {
   text-decoration: none;
-}
-
-.logo-img {
-  width: 5em;
-  height: 5em;
-}
-
-@media screen and (min-width: 30em) {
-  .nav-bar {
-    flex-direction: row;
-  }
 }
