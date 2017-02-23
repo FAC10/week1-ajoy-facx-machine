@@ -195,6 +195,7 @@ section:nth-child(2n) {
 @media screen and (min-width: 40em) {
   .media--row {
     display: flex;
+    flex-direction:row;
     align-items: center;
   }
 
