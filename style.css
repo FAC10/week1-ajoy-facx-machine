@@ -71,13 +71,6 @@ section:nth-child(2n) {
   background-color: #1f2947;
 }
 
-@media screen and (min-width: 40em) {
-  .navbar {
-    display: flex;
-    align-items: center;
-  }
-}
-
 .navbar__brand {
   font-size: 2em;
   font-family: monospace;
@@ -110,6 +103,18 @@ section:nth-child(2n) {
 
 .navbar__linkItem:hover {
   text-decoration: underline;
+}
+
+@media screen and (min-width: 40em) {
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar__menu {
+    margin-top: 0;
+  }
+
 }
 
 .grid {
