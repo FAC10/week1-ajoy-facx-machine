@@ -168,6 +168,7 @@ section:nth-child(2n) {
 
 .media__img--round {
   border-radius: 50%;
+  box-shadow: -5px 2px 3px 0px rgba(89,115,191,0.36);
 }
 
 .media__caption {
