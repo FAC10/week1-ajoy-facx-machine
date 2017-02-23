@@ -1,9 +1,23 @@
 # FACX Machine's Nice Site
 
-After cloning the repo run `npm install` to install the development dependencies (currently only Browser-sync).
+## Why
+To create a place where prospective clients can see information about our team, our team members and our work.
 
-To work on the site run `npm start` and your browser should open `index.html`.
+## What
 
-Browser-sync will watch any `.html`, `.css` and `.js` files and automatically refresh the browser for you when you save.
++ Navbar
++ Landing/about section
++ Team profiles section
++ Contact form section
 
-To add a warning instruction when pushing to master run the command `cp pre-push .git/hooks/ && chmod +x .git/hooks/pre-push`
+## How
+
++ We began by sitting down as a group to discuss the user stories and design requirements.
++ Given the limited timespan to work on the project we chose a relatively simple layout that would let us focus on writing semantic HTML and ensuring the site is accessible.
++ We discussed CSS layout methods and decided to use flexbox as it allowed us to quickly build a simple responsive grid. Writing our code mobile first meant that we could progressively enhance for users with newer browsers — anyone with a browser without flexbox support would still be able to view the content in the mobile layout.
+
+## Stretch goals
+
+- [ ] Create a fully functional form with [Formspree](http://formspree.io).
+- [ ] Nice hover effects for profile links.
+- [ ] Possibly some on-load CSS animations
