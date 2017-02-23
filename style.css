@@ -10,12 +10,6 @@ html {
   box-sizing: border-box;
 }
 
-.site-container {
-  max-width: 70em;
-  margin: 0 auto;
-  padding: 1em; /*maybe change this*/
-}
-
 body,
 figure,
 h1,
@@ -37,6 +31,22 @@ body {
   font-family: 'Helvetica', Helvetica, Arial, sans-serif;
 }
 
+.sectionContainer {
+  max-width: 70em;
+  padding: 4em 1em;
+  margin: 0 auto;
+}
+
+@media (min-width: 30em) {
+  .sectionContainer {
+    padding: 8em 1em;
+  }
+}
+
+section:nth-child(2n) {
+  background-color: #EDF3F9;
+}
+
 /* this element allows you to hide text visually, but not from a screen reader */
 .accessible_elem {
   clip: rect(1px 1px 1px 1px); /* IE 6/7 */
@@ -50,10 +60,12 @@ body {
 
 /* Nav Bar */
 .navbar {
-  border: 1px solid red;
+  padding: 2em;
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: white;
+  background-color: #1f2947;
 }
 
 @media screen and (min-width: 30em) {
@@ -63,12 +75,17 @@ body {
 }
 
 .navbar__brand {
-  
+  font-size: 2em;
+  font-family: monospace;;
 }
 
 .navbar__logo {
   width: 5em;
   height: 5em;
+}
+
+.navbar__menuContainer {
+  margin-left: auto;
 }
 
 .navbar__menu {
@@ -83,6 +100,7 @@ body {
 
 .navbar__linkItem {
   text-decoration: none;
+  color: inherit;
 }
 
 .grid {
