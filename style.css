@@ -27,7 +27,6 @@ ul,
 li {
   margin: 0;
   padding: 0;
-  font-family:'Muli',sans-serif;
 }
 
 img {
@@ -36,7 +35,7 @@ img {
 }
 
 body {
-  font-family: 'Helvetica', Helvetica, Arial, sans-serif;
+  font-family: 'Muli',sans-serif,'Helvetica', Helvetica, Arial, sans-serif;
   color: #333333;
 }
 
@@ -101,12 +100,9 @@ section:nth-child(2n) {
 
 .navbar__brand {
   font-size: 1.75em;
-  font-family: monospace;
-}
-
-.navbar__brand {
   font-family: 'Exo',cursive;
 }
+
 
 .navbar__menuContainer {
   margin-left: auto;
@@ -119,8 +115,6 @@ section:nth-child(2n) {
   justify-content: space-between;
 }
 
-.navbar__item {
-}
 
 .navbar__linkItem {
   padding: 1em;
