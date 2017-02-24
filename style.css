@@ -140,9 +140,7 @@ section:nth-child(2n) {
 
 /* PROFILES SECTION */
 /* ========================================================================= */
-.grid {
 
-}
 /* contained by '.grid' which controls layout of section */
 .grid__header {
   font-size: 3em;
