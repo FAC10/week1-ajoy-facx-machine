@@ -15,6 +15,9 @@ To create a place where prospective clients can see information about our team, 
 + We began by sitting down as a group to discuss the user stories and design requirements.
 + Given the limited timespan to work on the project we chose a relatively simple layout that would let us focus on writing semantic HTML and ensuring the site is accessible.
 + We discussed CSS layout methods and decided to use flexbox as it allowed us to quickly build a simple responsive grid. Writing our code mobile first meant that we could progressively enhance for users with newer browsers — anyone with a browser without flexbox support would still be able to view the content in the mobile layout.
++ We developed the page by first talking through the layout with a rough sketch of the layout. We then divided the different sections between pairs, and began pair programming each section.
++ We worked using the browser sync program to watch for changes on one laptop whilst working on the other together. This program also allowed us to montior changes being made by the other pair.
++ We also set up a pre-push git hook to prevent ourselves from pushing to master unwittingly and worked by opening issues for each bit/stage of work and worked on feature branches throughout.
 
 ## Stretch goals
 
