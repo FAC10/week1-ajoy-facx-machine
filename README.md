@@ -18,6 +18,6 @@ To create a place where prospective clients can see information about our team, 
 
 ## Stretch goals
 
-- [ ] Create a fully functional form with [Formspree](http://formspree.io).
-- [ ] Nice hover effects for profile links.
-- [ ] Possibly some on-load CSS animations
+- [x] Create a fully functional form with [Formspree](http://formspree.io).
+- [x] Nice hover effects for profile links.
+- [ ] Possibly some on-load CSS animations - Ran out out of time unfortunately
