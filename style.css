@@ -98,11 +98,17 @@ section:nth-child(2n) {
   background-color: #1f2947;
 }
 
+@media screen and (min-width: 40em) {
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+}
+
 .navbar__brand {
   font-size: 1.75em;
   font-family: 'Exo',cursive;
 }
-
 
 .navbar__menuContainer {
   margin-left: auto;
@@ -115,6 +121,11 @@ section:nth-child(2n) {
   justify-content: space-between;
 }
 
+@media screen and (min-width: 40em) {
+  .navbar__menu {
+    margin-top: 0;
+  }
+}
 
 .navbar__linkItem {
   padding: 1em;
@@ -126,24 +137,13 @@ section:nth-child(2n) {
   text-decoration: underline;
 }
 
-@media screen and (min-width: 40em) {
-  .navbar {
-    display: flex;
-    align-items: center;
-  }
-
-  .navbar__menu {
-    margin-top: 0;
-  }
-
-}
 
 /* PROFILES SECTION */
 /* ========================================================================= */
 .grid {
 
 }
-
+/* contained by '.grid' which controls layout of section */
 .grid__header {
   font-size: 3em;
   color: #5973BF;
@@ -153,33 +153,6 @@ section:nth-child(2n) {
 
 .grid__item {
   padding-bottom: 1em;
-}
-
-.media {
-  height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-.media__profileTitle {
-    color:#5973BF;
-    font-size: 1.5em;
-}
-
-.grid__iconContainer {
-    margin-top: 1em;
-    text-align: center;
-}
-
-.svgSocIcon {
-  fill: #2E3B60;
-  max-width: 2em;
-  max-height: 2em;
-  margin-left: 0.5em;
-  transition: fill 0.4s;
-}
-
-.svgSocIcon:hover {
-  fill: #5973BF;
 }
 
 @media screen and (min-width: 40em) {
@@ -206,6 +179,37 @@ section:nth-child(2n) {
   }
 }
 
+.media {
+  height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.media__profileTitle {
+    color:#5973BF;
+    font-size: 1.5em;
+}
+
+/* Social link icons */
+.grid__iconContainer {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.svgSocIcon {
+  fill: #2E3B60;
+  max-width: 2em;
+  max-height: 2em;
+  margin-left: 0.5em;
+  transition: fill 0.4s;
+}
+
+.svgSocIcon:hover {
+  fill: #5973BF;
+}
+
+
+/* Profile images */
 .media__img {
   width: 100%;
   margin-bottom: 1em;
