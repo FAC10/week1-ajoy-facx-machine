@@ -1,3 +1,10 @@
+/* ========================================================================= */
+/* This stylesheet employs mobile first approach */
+/* ========================================================================= */
+
+
+/* SITE SETUP */
+/* ========================================================================= */
 *,
 *:before,
 *:after {
@@ -67,6 +74,9 @@ section:nth-child(2n) {
   background-color: #EDF3F9;
 }
 
+/* ACCESSIBLE ELEMENT - credits to Jesse Bach /*
+/* https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe#.o6kv6t45t */
+/* ========================================================================= */
 /* this element allows you to hide text visually, but not from a screen reader */
 .accessible_elem {
   clip: rect(1px 1px 1px 1px); /* IE 6/7 */
@@ -78,7 +88,8 @@ section:nth-child(2n) {
   width: 1px;
 }
 
-/* Nav Bar */
+/* NAV BAR */
+/* ========================================================================= */
 .navbar {
   padding: 1.5em;
   text-align: center;
@@ -131,6 +142,8 @@ section:nth-child(2n) {
 
 }
 
+/* PROFILES SECTION */
+/* ========================================================================= */
 .grid {
 
 }
@@ -256,6 +269,9 @@ section:nth-child(2n) {
   }
 }
 
+
+/* CONTACT FORM SECTION */
+/* ========================================================================= */
 .contact-form__container {
   max-width: 40em;
   margin: 0 auto;
