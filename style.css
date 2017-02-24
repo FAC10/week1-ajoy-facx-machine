@@ -183,11 +183,6 @@ section:nth-child(2n) {
     flex-direction: column;
 }
 
-.media__profileTitle {
-    color:#5973BF;
-    font-size: 1.5em;
-}
-
 /* Social link icons */
 .grid__iconContainer {
     margin-top: 1em;
